@@ -173,7 +173,7 @@ https://engineeringxpert.com/wp-content/uploads/2022/04/26.png
 
 
 ## STM 32 CUBE PROGRAM :
-
+```
 /* USER CODE BEGIN Header */
 /**
   ******************************************************************************
@@ -201,9 +201,9 @@ Lcd_HandleTypeDef lcd;
 void lcd_display()
 {
 	Lcd_cursor(&lcd,0,1);
-	Lcd_string(&lcd,"JAGADESH J");
+	Lcd_string(&lcd,"HASNA");
 	Lcd_cursor(&lcd,1,1);
-	Lcd_string(&lcd,"212223110015\n");
+	Lcd_string(&lcd,"DEPT AIML\n");
 	for(int x=0;x<100;x++)
 	{
 		Lcd_cursor(&lcd,2,1);
@@ -405,7 +405,7 @@ void assert_failed(uint8_t *file, uint32_t line)
   /* USER CODE END 6 */
 }
 #endif /* USE_FULL_ASSERT */
-
+```
 
 
 
